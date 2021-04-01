@@ -1,6 +1,24 @@
 # Client Churn Prediction
 
-## Reduce clients' churn rate, that is, to avoid that the client cancel the contract and don't renovate it for more 12 months.
+## Introduction
+
+This repository contains the solution for this business problem (in portuguese): https://bit.ly/3ntCc6E
+
+This project is part of the "Data Science Community" (Comunidade DS), a study environment to promote, learn, discuss and execute Data Science projects. For more information, please visit (in portuguese): https://sejaumdatascientist.com/
+
+The goal of this Readme is to show the context of the problem, the steps taken to solve it, the main insights and the overall performance.
+
+**Project Development Method**
+
+The project was developed based on the CRISP-DS (Cross-Industry Standard Process - Data Science, a.k.a. CRISP-DM) project management method, with the following steps:
+
+- Business Understanding
+- Data Collection
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Preparation
+- Machine Learning Modelling and fine-tuning
+- Model and Business performance evaluation / Results
 
 #### This project was made by Marx Cerqueira.
 
