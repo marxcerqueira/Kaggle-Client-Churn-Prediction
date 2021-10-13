@@ -169,9 +169,11 @@ Performance tables on unbalanced and balanced data:
 
 # 5.2. Models Perfomance on Test Data
 
-tabela de performance dos modelos em dados nunca vistos(desbalanceado) 
+Performance table on unseen data (test dataset) which is unbalanced
 
-graficos dos modelos
+![](reports/figures/models_performance_test_data.png)
+
+models graphics
 
 # 7. Business Results
 
