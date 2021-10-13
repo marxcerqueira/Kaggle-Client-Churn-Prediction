@@ -145,7 +145,7 @@ My strategy to answers the Analytics Team and CEO questions, an exploratory data
 
 **True/False.**
 
-![reports/figures/Hypothesis_summary_EDA.png]
+![](reports/figures/Hypothesis_summary_EDA.png)
 
 # 5. Machine Learning Model Applied
 
