@@ -86,12 +86,29 @@ The Top Bank company operates in Europe with a bank account as the main product,
 # 2. The Dataset.
 The dataset used in this project is available on Kaggle: https://www.kaggle.com/mervetorkan/churndataset
 
+This dataset contain 10,000 rows and 14 columns that are described below:
 
+- **RowNumber**: corresponds to the record (row) number and has no effect on the output.
+- **CustomerID**: Unique client identifier and has no effect on customer leaving the bank.
+- **Surname**: Client's surname and has no effect on customer leaving the bank.
+- **CreditScore**: Client's credit card score for the financial market. can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank.
+- **Geography**: The country where the client lives and a customer’s location can affect their decision to leave the bank.
+- **Gender**: Client's gender. it’s interesting to explore whether gender plays a role in a customer leaving the bank.
+- **Age**: Client's age. This is certainly relevant, since older customers are less likely to leave their bank than younger ones.
+- **Tenure**:  Refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to leave a bank. 
+- **Balance**: The monetary amount the client has in their current account. Also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances.
+- **NumOfProducts**: The number of products purchased by the client.
+- **HasCrCard**: Point if the client has a credit card. This column is also relevant, since people with a credit card are less likely to leave the bank.
+- **IsActiveMember**: Tell if the client is an active member of the bank (within the last 12 months). active customers are less likely to leave the bank.
+- **EstimateSalary**: Client's annual salary estimate. As with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries.
+- **Exited**: Indicates if the client is a churn (tagert variable). Whether or not the customer left the bank. (0=No,1=Yes)
 
 # 3. Solution Strategy
 
-My strategy to solve this challenge was:
+My strategy to answers the Analytics Team and CEO questions, an exploratory data analysis will be performed, after that, a machine learning model will be developed following the strategy to answer the business questions
 
+
+# 3.1. Step-by-step
 **Step 01. Data Description:**
 
 **Step 02. Feature Engineering:**
@@ -108,9 +125,9 @@ My strategy to solve this challenge was:
 
 **Step 08. Hyperparameter Fine Tunning:**
 
-**Step 09. Convert Model Performance to Business Values:**
+**Step 09. Final Model:**
 
-**Step 10. Deploy Modelo to Production:**
+**Step 10. Convert Model Performance to Business Values:**
 
 # 4. Top 3 Data Insights
 
@@ -128,7 +145,33 @@ My strategy to solve this challenge was:
 
 # 5. Machine Learning Model Applied
 
+The following machine learning models were trained:
+* Logistic Regression;
+* Random Forest Classifier
+* XGBoost Classifier
+* LightGBM
+* SVM
+* Gaussian Nayve Bayes
+* CART (Classification and Regression Trees)
+
+All of them were cross-validated
+
 # 6. Machine Learning Modelo Performance
+
+It's worth remembering that this is a classification problem with imbalaced data. Due this, the accuracy metric alone does't tell us much about the model, and for a better analysis I have to use other metrics such as recall, F1-Score and MCC.
+
+# 5.1. Models Perfomance on Training Dataset
+
+Performance tables on unbalanced and balanced data:
+![](reports/figures/imbalanced_models_performance_comparison_train_data.png)
+
+![](reports/figures/balanced_models_performance_comparison_train_data.png)
+
+# 5.2. Models Perfomance on Test Data
+
+tabela de performance dos modelos em dados nunca vistos(desbalanceado) 
+
+graficos dos modelos
 
 # 7. Business Results
 
