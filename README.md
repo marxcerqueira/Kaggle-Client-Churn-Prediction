@@ -131,6 +131,8 @@ My strategy to answers the Analytics Team and CEO questions, an exploratory data
 
 # 4. Top 3 Data Insights
 
+![](reports/figures/Churn.png)
+
 **Hypothesis 01:**
 
 **True/False.**
@@ -174,6 +176,11 @@ Performance table on unseen data (test dataset) which is unbalanced
 ![](reports/figures/models_performance_test_data.png)
 
 models graphics
+
+![]
+![]
+![]
+![]
 
 # 7. Business Results
 
