@@ -160,7 +160,7 @@ The following machine learning models were trained:
 
 All of them were cross-validated
 
-# 6. Machine Learning Modelo Performance
+# 6. Machine Learning Model Performance
 
 It's worth remembering that this is a classification problem with imbalaced data. Due this, the accuracy metric alone does't tell us much about the model, and for a better analysis I have to use other metrics such as recall, F1-Score and MCC.
 
